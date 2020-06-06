@@ -14,12 +14,7 @@ public class ActionClass {
 
 	public static void main(String[] args) throws InterruptedException
 	{
-		//made chsnge in action class
-		//made change in local in action class
-		//changr direct in eclipse
-		//push eclipse
-		//aded fuck you error
-		//change by user1
+		
 		System.setProperty("webdriver.chrome.driver", "G:\\\\TY Selenium\\\\Selenium\\\\driver\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.edureka.co/");
