@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<test thread-count="5" name="Testrunner1">
+		<classes>
+			<class name="testNG2.PayementTest" />
+			<class name="testNG2.Listners" />
+			<class name="testNG2.TestNGGrouping" />
+			<class name="testNG2.TestNGPriority" />
+			<class name="testNG2.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Testrunner2">
+		<classes>
+			<class name="testNG2.SingUpTest" />
+			<class name="testNG2.PayementReturn" />
+			<class name="testNG2.ReportingTest" />
+			<class name="testNG2.TestNGDataProviders" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
