@@ -14,6 +14,7 @@ public class ActionClass {
 
 	public static void main(String[] args) throws InterruptedException
 	{
+		//made chsnge in action class
 		System.setProperty("webdriver.chrome.driver", "G:\\\\TY Selenium\\\\Selenium\\\\driver\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.edureka.co/");
