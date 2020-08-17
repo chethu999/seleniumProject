@@ -18,7 +18,7 @@ public class AlertWindow1
 
 	public static void main(String[] args) throws InterruptedException
 	{ 
-		System.setProperty("webdriver.chrome.driver", "G:\\\\TY Selenium\\\\Selenium\\\\driver\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "G:\\GitHub\\Selenium\\driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		
 		

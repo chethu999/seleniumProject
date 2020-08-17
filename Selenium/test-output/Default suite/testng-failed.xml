@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG2.Dataprovider">
+      <class name="multipleWindowHandle.FileUploadPopUp">
         <methods>
-          <include name="addaCart"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testNG2.Dataprovider -->
+      </class> <!-- multipleWindowHandle.FileUploadPopUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

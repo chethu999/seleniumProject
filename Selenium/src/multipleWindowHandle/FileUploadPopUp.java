@@ -6,15 +6,16 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class FileUploadPopUp
 {
-	static ChromeDriver driver;
-
-	public static void main(String[] args) throws InterruptedException 
+	
+	@Test
+	public static void test()
 	{ 
-		System.setProperty("webdriver.chrome.driver", "G:\\\\TY Selenium\\\\Selenium\\\\driver\\\\chromedriver.exe");
-		driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "G:\\GitHub\\Selenium\\driver\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
 		
 		
 		driver.manage().window().maximize();
